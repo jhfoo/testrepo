@@ -4,7 +4,7 @@
   "description": "This repo has a working test script",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/jhfoo/testrepo/issues"
   },
-  "homepage": "https://github.com/jhfoo/testrepo#readme"
+  "homepage": "https://github.com/jhfoo/testrepo#readme",
+  "devDependencies": {
+    "jest": "^23.4.1",
+    "jest-vue-preprocessor": "^1.4.0"
+  },
+  "dependencies": {}
 }
